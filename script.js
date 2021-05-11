@@ -1,7 +1,5 @@
 document.getElementById('button').addEventListener('click', calculateArea)
 let radius = 0
-let circumference = 0
-let diameter = 0
 
 function calculateArea () {
   radius = document.getElementById('radius').value
